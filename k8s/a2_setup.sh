@@ -7,7 +7,7 @@ docker ps -a
 kubectl cluster-info
 kubectl get nodes
 
-cd manifests
+cd k8/manifests
 
 # app deploy
 kubectl apply -f app-deployment.yaml

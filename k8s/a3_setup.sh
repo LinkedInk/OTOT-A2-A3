@@ -1,7 +1,7 @@
 cd manifests
 
 # apply metric server
-kubectl apply -f metric-server.yaml
+kubectl apply -f metrics-server.yaml
 # check metric server
 kubectl -n kube-system get deploy metrics-server
 
